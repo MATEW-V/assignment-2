@@ -1,3 +1,7 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
 h2 {
     text-decoration: underline;
     color: green;
@@ -9,17 +13,23 @@ h2 {
 }
 
 .box-model {
-    padding: 5px;
+    position:fixed;
+    background-color: #035c3b;
+    color: white;
+    min-width:100%;
+    padding: 8px;
     border-width: 2px;
     border-style: ridge;
-    margin: 10px;
+    margin: 0px;
     text-align: center;
-    font-weight: bold;
 }
 
 .signup-button {
     background-color: #04AA6D;
     /* Green */
+    position: fixed;
+    left: 390px;
+    min-width:69%;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -43,9 +53,12 @@ h2 {
     display: inline-block;
     font-size: 16px;
 }
+
 .login-button {
     background-color: white;
     color: #04AA6D;
+    position: fixed;
+    left: 140px;
     padding: 15px 32px;
     border: #04AA6D;
     border-style: groove;
@@ -54,7 +67,6 @@ h2 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-
 }
 
 .login-button:hover {
@@ -67,5 +79,10 @@ h2 {
     font-size: 16px;
 }
 .container {
-    display: inline-grid;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: left;
+    height:100vh;
+    min-width: 100vh;
+    background-color: red;
 }

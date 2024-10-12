@@ -5,25 +5,25 @@
 
 .main {
     width: 100%;
-    background: linear-gradient(to top, rgba(41, 41, 41, 0.5)50%, rgba(41, 41, 41, 0.5)50%), url(mviebackground.jpg);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(mviebackground.jpg);
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 105vh;
 }
 
 .bar {
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
-    width: 100%-1px;
+    width: 100%;
     height: 6%;
     margin: auto;
-    border: 1px solid rgba(17, 160, 12, 0.623);
+
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
 }
 
 .icon {
-    width: 12%;
+    width: 20%;
     float: left;
     height: 70px;
 }
@@ -31,28 +31,29 @@
 .logo {
     display: flex;
     color: rgba(0, 165, 82, 0.89);
-    font-size: 35px;
-    font: arial;
-    padding-left: 20px;
+    font-size: 40px;
+    font-family: "Papyrus";
     float: left;
-    padding-top: 10px;
+    margin-top: 6px;
+    margin-left: 10px;
+    justify-content: center;
 }
 
 .menu {
-    background-color: gray;
-    width: 88%;
+    width: 80%;
     float: left;
-    height:100%;
+    height: 100%;
 }
 
 ul {
     width: 100%;
-    height:100%;
+    height: 100%;
     float: left;
     display: flex;
     justify-content: left;
     align-items: center;
 }
+
 ul li {
     list-style: none;
     font-size: 14px;
@@ -60,8 +61,8 @@ ul li {
 
 ul li a {
     text-decoration: none;
-    margin-left: 70px;
-    margin-right: 20px;
+    margin-left: 30px;
+    margin-right: 50px;
     display: block;
     color: white;
     font-family: Arial;
@@ -74,14 +75,16 @@ ul li a:hover {
 }
 
 .search {
-    background-color: #fff;
-    width: 20%;
+    width: 90vh;
+    height: 100%;
     float: left;
 }
 
 .searchbox {
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
     font-family: 'Times New Roman';
-    align-self: center;
     width: 300px;
     height: 40px;
     background: transparent;
@@ -94,10 +97,11 @@ ul li a:hover {
 }
 
 .button {
+    border-radius: 2px;
+    align-items: center;
     width: 100px;
     height: 40px;
     background: rgba(17, 160, 12, 0.623);
-    margin-top: 13px;
     color: #fff;
     border: none;
     font-size: 15px;
@@ -110,29 +114,87 @@ ul li a:hover {
 }
 
 .signupbutton {
+    border-radius: 2px;
     align-self: center;
+    margin-right: 20px;
     background-color: rgba(17, 160, 12, 0.623);
-    width: 140px;
+    width: 130px;
     height: 40px;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
 }
 
 .signupbutton:hover {
-    background-color: white;
+    background-color: #636363;
     /* red */
-    border: #04AA6D;
-    border-width: 1px;
-    border-style: groove;
-    color: #04AA6D;
+    border: rgba(17, 160, 12, 0.623);
+
+}
+
+.loginbutton {
+    border-radius: 2px;
+    align-self: center;
+    background-color: rgba(17, 160, 12, 0.623);
+    width: 130px;
+    height: 40px;
+    border: none;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
+}
+
+.loginbutton:hover {
+    background-color: #636363;
+    /* red */
+    border: rgba(17, 160, 12, 0.623);
+
+}
+
+.hero {
+    background-color: rgba(61, 160, 74, 0.5);
+    border-radius: 25px;
+    padding: 20px;
+    left: 65%;
+    top: -300px;
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.content {
+    line-height: 1.6;
+    width: 98%;
+    height: 40%;
+    margin: auto;
+    color: #fff;
+    position: static;
+    padding-left: 20px;
+}
+
+.content h1 {
+    font-family: 'Helvetica';
+    font-size: 50px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.feature {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    background-color: rgba(61, 160, 74, 0.5);
+    font-size: 32px;
+    border-radius: 25px;
+    color: #fff;
+    justify-content:space-around ;
+    display: flex;
+    width: 60%;
+    height: 25%;
+    padding: 10px;
+    margin: 2px;
 }

@@ -23,7 +23,7 @@
 }
 
 .icon {
-    width: 20%;
+    width: 18%;
     float: left;
     height: 70px;
 }
@@ -31,16 +31,16 @@
 .logo {
     display: flex;
     color: rgba(0, 165, 82, 0.89);
-    font-size: 40px;
+    font-size: 35px;
     font-family: "Papyrus";
     float: left;
     margin-top: 6px;
-    margin-left: 10px;
+    margin-left: 6px;
     justify-content: center;
 }
 
 .menu {
-    width: 80%;
+    width: 60%;
     float: left;
     height: 100%;
 }
@@ -75,7 +75,7 @@ ul li a:hover {
 }
 
 .search {
-    width: 90vh;
+    width: 50vh;
     height: 100%;
     float: left;
 }
@@ -85,7 +85,7 @@ ul li a:hover {
     display: flex;
     align-items: center;
     font-family: 'Times New Roman';
-    width: 300px;
+    width: 280px;
     height: 40px;
     background: transparent;
     border: 1px solid rgba(17, 160, 12, 0.623);
@@ -99,7 +99,7 @@ ul li a:hover {
 .button {
     border-radius: 2px;
     align-items: center;
-    width: 100px;
+    width: 80px;
     height: 40px;
     background: rgba(17, 160, 12, 0.623);
     color: #fff;
@@ -118,14 +118,14 @@ ul li a:hover {
     align-self: center;
     margin-right: 20px;
     background-color: rgba(17, 160, 12, 0.623);
-    width: 130px;
+    width: 115px;
     height: 40px;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .signupbutton:hover {
@@ -139,14 +139,14 @@ ul li a:hover {
     border-radius: 2px;
     align-self: center;
     background-color: rgba(17, 160, 12, 0.623);
-    width: 130px;
+    width: 115px;
     height: 40px;
     border: none;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .loginbutton:hover {

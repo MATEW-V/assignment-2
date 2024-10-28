@@ -117,7 +117,7 @@ ul li a:hover {
     transition: 0.2s ease;
     border-radius: 2px;
     align-self: center;
-    margin-right: 20px;
+    margin-right: 10px;
     background-color: rgb(26, 160, 86);
     width: auto;
     height: 40px;
@@ -172,7 +172,7 @@ ul li a:hover {
     display: flex;
     position: relative;
     width: auto;
-    left:70%;
+    left:54%;
     align-items: center;
 }
 
@@ -222,11 +222,7 @@ ul li a:hover {
     position: absolute;
     top: 0px;
     left: 0px;
-    overflow: hidden;
     list-style: none;
-    white-space: nowrap;
-    animation: bannermove 10s linear infinite;
-
 }
 
 .moviebanner li {
@@ -246,6 +242,7 @@ ul li a:hover {
     display: flex;
     max-width: 18vh;
     max-height: 100%;
+    padding-left:35%;
 }
 
 .footer {
